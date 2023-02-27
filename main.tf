@@ -14,8 +14,8 @@ resource "cloudflare_record" "record" {
     for r in local.record_set : r.value => r
   }
 
-  zone_id  = data.cloudflare_zone.zone.id
-  name     = var.domain
-  type     = each.value.type
-  value    = each.value.value
+  zone_id = data.cloudflare_zone.zone.id
+  name    = var.domain
+  type    = each.value.type
+  value   = each.value.value
 }
