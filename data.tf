@@ -1,3 +1,3 @@
 data "cloudflare_zone" "zone" {
-  name = var.domain
+  name = var.root_domain
 }
