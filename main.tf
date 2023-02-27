@@ -9,13 +9,6 @@ locals {
   ])
 }
 
-resource "random_string" "suffix" {
-  length  = 4
-  lower   = true
-  special = false
-}
-
-
 resource "cloudflare_record" "record" {
   for_each = {
     for r in local.record_set : r.value => r
