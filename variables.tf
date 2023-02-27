@@ -4,6 +4,6 @@ variable "domain" {
 }
 
 variable "records" {
-  type = map(list(string))
+  type        = map(list(string))
   description = "List of DNS records to create"
 }
