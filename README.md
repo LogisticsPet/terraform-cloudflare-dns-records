@@ -12,7 +12,7 @@ Terraform module to create DNS records in cloudflare zone
 
 | Name | Version |
 |------|---------|
-| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | 4.0.0 |
+| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | 4.26.0 |
 
 ## Modules
 
