@@ -6,7 +6,8 @@ Terraform module to create DNS records in cloudflare zone
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_cloudflare"></a> [cloudflare](#requirement\_cloudflare) | ~> 4.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
+| <a name="requirement_cloudflare"></a> [cloudflare](#requirement\_cloudflare) | 4.26.0 |
 
 ## Providers
 
@@ -22,8 +23,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs/resources/record) | resource |
-| [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/latest/docs/data-sources/zone) | data source |
+| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/4.26.0/docs/resources/record) | resource |
+| [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/4.26.0/docs/data-sources/zone) | data source |
 
 ## Inputs
 
