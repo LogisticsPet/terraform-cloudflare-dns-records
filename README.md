@@ -17,9 +17,12 @@ Terraform module to create DNS records in cloudflare zone
 ## Modules
 
 No modules.
+## Resources
 
-- resource.cloudflare_record.record (main.tf#12)
-- data source.cloudflare_zone.zone (data.tf#1) 
+| Name | Type |
+|------|------|
+| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/4.26.0/docs/resources/record) | resource |
+| [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/4.26.0/docs/data-sources/zone) | data source |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
