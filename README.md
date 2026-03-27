@@ -11,12 +11,12 @@ Terraform module to create DNS records in cloudflare zone
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.14.8 |
-| <a name="requirement_cloudflare"></a> [cloudflare](#requirement\_cloudflare) | 4.52.7 |
+| <a name="requirement_cloudflare"></a> [cloudflare](#requirement\_cloudflare) | 5.18.0 |
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | 4.52.7 |
+| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | 5.18.0 |
 ## Modules
 
 No modules.
@@ -24,8 +24,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/4.52.7/docs/resources/record) | resource |
-| [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/4.52.7/docs/data-sources/zone) | data source |
+| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/record) | resource |
+| [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone) | data source |
 ## Inputs
 
 | Name | Description | Type | Default | Required |
