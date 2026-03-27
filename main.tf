@@ -9,7 +9,7 @@ locals {
   ])
 }
 
-resource "cloudflare_record" "record" {
+resource "cloudflare_dns_record" "record" {
   for_each = {
     for r in local.record_set : r.value => r
   }
@@ -17,5 +17,6 @@ resource "cloudflare_record" "record" {
   zone_id = data.cloudflare_zone.zone.id
   name    = var.domain
   type    = each.value.type
-  value   = each.value.value
+  content = each.value.value
+  ttl     = 3600
 }
