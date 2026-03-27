@@ -24,7 +24,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [cloudflare_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/record) | resource |
+| [cloudflare_dns_record.record](https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/resources/dns_record) | resource |
 | [cloudflare_zone.zone](https://registry.terraform.io/providers/cloudflare/cloudflare/5.18.0/docs/data-sources/zone) | data source |
 ## Inputs
 
