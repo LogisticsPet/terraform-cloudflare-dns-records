@@ -10,7 +10,7 @@ Terraform module to create DNS records in cloudflare zone
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.14.8 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.14.9 |
 | <a name="requirement_cloudflare"></a> [cloudflare](#requirement\_cloudflare) | 5.18.0 |
 ## Providers
 
